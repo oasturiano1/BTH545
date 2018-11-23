@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steering Wheel</title>
+    <style> body {padding: 0; margin: 0;} .onTop { position: absolute; top: 450px; left: 150px; } .onTop2 { position: absolute; bottom: 300px; left: 875px; }</style>
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <div class="onTop2">
+      <span id="currentGear"></span><br>
+      <input type="radio" name="gear" value="park" onclick="gearshift('park')" checked> P<br>
+      <input type="radio" name="gear" value="drive" onclick="gearshift('drive')"> R<br>
+      <input type="radio" name="gear" value="reverse" onclick="gearshift('reverse')"> D<br>
+
+    </div>
+      <div class="onTop">
+          <div>
+            <button type="button" style="visibility:hidden" disabled>O</button> 
+           <button type="button" style="padding: 5px">^</button> 
+             
+           </div>
+           <div>
+           <button type="button" disabled><</button> 
+          <button type="button" style="padding: 5px">O</button> 
+          <button type="button" disabled>></button> 
+      
+           </div>
+            <div>
+              <button type="button" style="visibility:hidden" disabled>O</button> 
+           <button type="button" style="padding: 5px">v</button> 
+      
+           </div>
+      </div>
+  </body>
+  <script>
+    
+      var gear = 'park';
+      //var sliderVal = 0;
+  
+      function gearshift(value){
+        gear=value;
+        document.getElementById("currentGear").innerHTML = gear.toUpperCase();
+        
+      }
+      /*function slideshift(){
+        sliderVal = document.getElementById("rangeSlider").value;
+        document.getElementById("slideValue").innerHTML = sliderVal;
+      }*/
+    </script>
+</html>
