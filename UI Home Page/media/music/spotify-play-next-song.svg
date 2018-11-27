@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.296 59.661">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Actions" transform="translate(-72.006 -335.262)">
+    <path id="Play_Button" data-name="Play Button" class="cls-1" d="M988.584,2000.261v59.661l44.288-30.228Z" transform="translate(-781.491 -1665)"/>
+    <path id="Fastfoward_Button" data-name="Fastfoward Button" class="cls-1" d="M0,0,27.159,18.051V.748h9.056v41.66H27.159V25.454L0,43.991Z" transform="translate(340.087 343.096)"/>
+    <path id="Rewind_Button" data-name="Rewind Button" class="cls-1" d="M0,0,27.159,18.051V.748h9.056v41.66H27.159V25.454L0,43.991Z" transform="translate(108.222 387.087) rotate(180)"/>
+  </g>
+</svg>
