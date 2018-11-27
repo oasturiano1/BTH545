@@ -6,84 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sweet UI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/bootstrap.min.js"></script>
+
+
+
 </head>
 
 <body>
+    
     <div class="container-fluid">
         <div class="row">
             <div class="col-4" id="sidebar">
                 <div class="row" id="speedometer">
                     SPEEDOMETER
                 </div>
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <div class="container">
-                        <h2>Dynamic Tabs</h2>
-                        <ul class="nav nav-tabs">
-                            <li class="active">
-                                <a data-toggle="tab" href="#home">Home</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#menu1">Menu 1</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#menu2">Menu 2</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#menu3">Menu 3</a>
-                            </li>
-                        </ul>
 
-                        <div class="tab-content">
-                            <div id="home" class="tab-pane in active">
-                                <h3>HOME</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <div id="menu1" class="tab-pane fade">
-                                <h3>Menu 1</h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.</p>
-                            </div>
-                            <div id="menu2" class="tab-pane fade">
-                                <h3>Menu 2</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                                    totam rem aperiam.</p>
-                            </div>
-                            <div id="menu3" class="tab-pane fade">
-                                <h3>Menu 3</h3>
-                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
-                        <h3>HOME</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua.</p>
 
-                    </div>
-                    <div id="menu1" class="tab-pane fade">
-                        <h3>Menu 1</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</p>
-                    </div>
-                    <div id="menu2" class="tab-pane fade">
-                        <h3>Menu 2</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                            totam rem aperiam.</p>
-                    </div>
-                    <div id="menu3" class="tab-pane fade">
-                        <h3>Menu 3</h3>
-                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    </div>
-                </div>
                 <div class="row" id="menu">
-                    MENU
+                    <img src="./media/menu/menu.svg" class="side_menu_button" onclick="openNav()" />
                 </div>
             </div>
             <div class="col-8">
@@ -99,27 +42,138 @@
         </div>
     </div>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="container">
+            <h2>Dynamic Tabs</h2>
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a data-toggle="tab" href="#home">Home</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu1">Menu 1</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu2">Menu 2</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu3">Menu 3</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane in active">
+                    <h3>HOME</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <h3>Menu 1</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <h3>Menu 2</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                        rem aperiam.</p>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                    <h3>Menu 3</h3>
+                    <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <iframe src="../SteeringWheel/index.html" class="iframe_size" id="controls"></iframe>
+
+    <!--CAR CONTROLS
+    <div class="container">
+        <div class="onTop2">
+            <span id="currentGear"></span>
+            <br>
+            <input type="radio" name="gear" value="park" onclick="gearshift('park')" checked> P
+            <br>
+            <input type="radio" name="gear" value="drive" onclick="gearshift('drive')"> R
+            <br>
+            <input type="radio" name="gear" value="reverse" onclick="gearshift('reverse')"> D
+            <br>
+
+        </div>
+        <div class="onTop">
+            <div>
+                <button type="button" style="visibility:hidden" disabled>O</button>
+                <button type="button" style="padding: 5px">^</button>
+
+            </div>
+            <div>
+                <button type="button" disabled></button>
+                <button type="button" style="padding: 5px">O</button>
+                <button type="button" disabled>></button>
+
+            </div>
+            <div>
+                <button type="button" style="visibility:hidden" disabled>O</button>
+                <button type="button" style="padding: 5px">v</button>
+
+            </div>
+        </div>
+    </div>
+    -->
 
 
-    <h2>Animated Sidenav Example</h2>
-    <p>Click on the element below to open the side navigation menu.</p>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "580px";
-        }
 
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        
+    <script src="./js/main.js"></script>
 </body>
+
+
+<!--<script>//This script os for the controls
+
+    var gear = 'park';
+    //var sliderVal = 0;
+
+    function gearshift(value) {
+        gear = value;
+        document.getElementById("currentGear").innerHTML = gear.toUpperCase();
+
+    }
+        /*function slideshift(){
+          sliderVal = document.getElementById("rangeSlider").value;
+          document.getElementById("slideValue").innerHTML = sliderVal;
+        }*/
+</script>-->
+
+<system.webServer>
+        <httpProtocol allowKeepAlive="true" >
+          <customHeaders>
+            <add name="X-Frame-Options" value="*" />
+          </customHeaders>
+        </httpProtocol>
+    </system.webServer>
 
 </html>
