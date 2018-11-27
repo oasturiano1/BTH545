@@ -15,7 +15,11 @@ body {
     padding-top: 60px;
 }
 
-
+.textBig {
+	padding: 30px;
+	font-size: 85px;
+	
+}
 
 .icon1 {
     background: red;

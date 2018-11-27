@@ -9,9 +9,28 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/bootstrap.min.js"></script>
-</head>
+	<script>				
+									function time(){
+										var today = new Date();
+										var h = today.getHours();
+										var m = today.getMinutes();
+									 
+										m = checkTime(m);
+									 
+										document.getElementById('clock').innerHTML = h + ":" + m;
+										console.log(h + ":" + m);
+										var t = setTimeout(time, 800);
+									}
 
-<body>
+									function checkTime(i) {
+										if (i < 10) {i = "0" + i};
+										return i;
+									}
+														
+								</script>
+	</head>
+
+<body onLoad="time()">
     <div class="container-fluid">
         <div class="row">
             <div class="col-4" id="sidebar">
@@ -104,7 +123,7 @@
 							</div>
 								
 							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/highbeam-circle.svg" alt="Light Beam" >	  
+								<img src="./media/topbar/sound-circle.svg" alt="Light Beam" >	  
 							</div>
 								
 							<div class ="col-sm rounded-circle border-dark">
@@ -114,8 +133,7 @@
 						<div class ="col-sm rounded-circle border-dark">
 								<img src="./media/topbar/wifi-circle.svg" alt="Light Beam" >	  
 							</div>
-							<div class ="col-sm">
-							Clock
+							<div class ="col-sm textBig rounded-circle" id="clock">
 							</div>
 						</div>
 				</div>
