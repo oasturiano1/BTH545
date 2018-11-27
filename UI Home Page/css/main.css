@@ -14,7 +14,25 @@ body {
     transition: 0.5s;
     padding-top: 60px;
 }
+.l_beam{
+	padding:10px;
+	max-height: 100%;
+	max-width: 90%;
+	
+	
+	
+}
+.contain_circle{
+	background: grey;
+	border-radius: 90%;
 
+	position:relative;
+	padding: 15px;
+
+	
+}
+
+.
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -36,8 +54,9 @@ body {
     margin-left: 50px;
 }
 #top-bar{
-	border: 2px solid white;
+	border: 4px solid;
 	padding-top: 10px;
+	padding-bottom: 5px;
 	
 }
 .img_gps{
