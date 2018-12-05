@@ -44,39 +44,54 @@
 					</div>
                 </div>
                 <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <div class="container">
-                        <ul class="nav nav-tabs">
+                    <a href="javascript:void(0) row" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="container col-12">
+                        <ul class="nav nav-tabs row">
                             <li class="active">
                                 <a data-toggle="tab" href="#home">
-                                    <img style="height: 50px; width: 80px;" src="./media/menu/settings.svg">
+                                    <img style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#menu1">
-                                    <img style="height: 50px; width: 100px;" src="./media/music/spotify.svg">
+                                    <img style="height: 50px; width: 30px;" src="./media/music/spotify.svg">
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#menu2">
-                                    <img style="height: 50px; width: 100px;" src="./media/music/radio.svg">
+                                    <img style="height: 50px; width: 30px;" src="./media/music/radio.svg">
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#menu3">
-                                    <img style="height: 50px; width: 100px;" src="./media/music/aux-cable.svg">
+                                    <img style="height: 50px; width: 30px;" src="./media/music/aux-cable.svg">
                                 </a>
                             </li>
                         </ul>
 
                         <div class="tab-content">
-                            <div id="home" class="tab-pane in active">
-                                    <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;" src="./media/music/guy.svg">
+                            <div id="home" class="tab-pane fade">
+                            <h3>Settings</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                            totam rem aperiam.</p>
+                            
+                            <input type="range" min="1" max="100" value="50" class ="col-12">
+                            <h5>Settings</h5>
+                            <input type="range" min="1" max="100" value="50" class ="col-12">
+                            <input type="range" min="1" max="100" value="50" class ="col-12">
+
+                            
+                                      
                             </div>
-                            <div id="menu1" class="tab-pane fade">
-                                <h3>Menu 1</h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.</p>
+                            <div id="menu1" class="tab-pane  in active">
+                                <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;" src="./media/music/guy.svg">
+                                <center>
+                                    <audio controls>
+                                       
+                                        <source src="media/musicmedia/fsm-team-back-home.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                    </audio>
+                                </center>
                             </div>
                             <div id="menu2" class="tab-pane fade">
                                 <h3>Menu 2</h3>
@@ -88,31 +103,31 @@
                                 <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             </div>
                         </div>
-                        <div style="position: absolute; bottom: 30px;">
+                        <div class="row">
                             <ul class="nav nav-tabs">
                                 <li class="active">
                                     <a data-toggle="tab" href="#home">
-                                        <img style="height: 50px; width: 70px;" src="./media/menu/musical-note.svg">
+                                        <img style="height: 50px; width: 30px;" src="./media/menu/musical-note.svg">
                                     </a>
                                 </li>
                                 <li>
                                     <a data-toggle="tab" href="#menu1">
-                                        <img style="height: 50px; width: 70px;" src="./media/menu/gps-arrow.svg">
+                                        <img style="height: 50px; width: 30px;" src="./media/menu/gps-arrow.svg">
                                     </a>
                                 </li>
                                 <li>
                                     <a data-toggle="tab" href="#menu2">
-                                        <img style="height: 50px; width: 70px;" src="./media/menu/car-compact.svg">
+                                        <img style="height: 50px; width: 30px;" src="./media/menu/car-compact.svg">
                                     </a>
                                 </li>
                                 <li>
                                     <a data-toggle="tab" href="#menu3">
-                                        <img style="height: 50px; width: 70px;" src="./media/menu/thermometer.svg">
+                                        <img style="height: 50px; width: 30px;" src="./media/menu/thermometer.svg">
                                     </a>
                                 </li>
                                 <li>
                                     <a data-toggle="tab" href="#menu3">
-                                        <img style="height: 50px; width: 70px;" src="./media/menu/settings.svg">
+                                        <img style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
                                     </a>
                                 </li>
                             </ul>
@@ -213,7 +228,7 @@
         </div>
     </div>
 
-    <iframe src="../SteeringWheel/index.html" class="iframe_size" id="controls"></iframe>
+    <!--<iframe src="../SteeringWheel/index.html" class="iframe_size" id="controls"></iframe>-->
 
     <!--CAR CONTROLS
     <div class="container">
