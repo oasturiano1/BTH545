@@ -49,24 +49,43 @@
                         <ul class="nav nav-tabs row">
                             <li class="active">
                                 <a data-toggle="tab" href="#home">
-                                    <img style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
+                                    <img id="settings" style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#menu1">
-                                    <img style="height: 50px; width: 30px;" src="./media/music/spotify.svg">
+                                    <img id="spotify" style="height: 50px; width: 30px;" src="./media/music/spotify.svg">
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#menu2">
-                                    <img style="height: 50px; width: 30px;" src="./media/music/radio.svg">
+                                    <img id="radio" style="height: 50px; width: 30px;" src="./media/music/radio.svg">
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#menu3">
-                                    <img style="height: 50px; width: 30px;" src="./media/music/aux-cable.svg">
+                                    <img id="aux" style="height: 50px; width: 30px;" src="./media/music/aux-cable.svg">
                                 </a>
                             </li>
+							<li>
+							<!-- This is a hidden div element for use with WIFI -->
+                                <a data-toggle="tab" href="#menu_wifi">
+                                    <img id="wifi_ls" style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
+                                </a>
+                            </li>
+							<!-- This is a hidden div element for use with Bluetooth -->
+							<li>
+                              <a data-toggle="tab" href="#menu_bluetooth">
+                                    <img id="bluetooth_ls" style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
+                              </a>
+                            </li>
+								<!-- This is a hidden div element for use with Volume -->
+							<li>
+                              <a data-toggle="tab" href="#menu_vol">
+                                    <img id="volume_ls" style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
+                              </a>
+                            </li>
+								
                         </ul>
 
                         <div class="tab-content">
@@ -98,8 +117,6 @@
                                 <center>
                                     <h5>Mids</h5>
                                 </center>
-
-
                             </div>
                             <div id="menu1" class="tab-pane  in active">
                                 <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;"
@@ -118,6 +135,18 @@
                             </div>
                             <div id="menu3" class="tab-pane fade">
                                 <h3>Aux</h3>
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+							<div id="menu_wifi" class="tab-pane fade">
+                                <h3>WIFI</h3>
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+							<div id="menu_bluetooth" class="tab-pane fade">
+                                <h3>BLUETOOTH</h3>
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+							<div id="menu_vol" class="tab-pane fade">
+                                <h3>Volume</h3>
                                 <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             </div>
                         </div>
