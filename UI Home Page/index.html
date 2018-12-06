@@ -67,33 +67,42 @@
                                     <img id="aux" style="height: 50px; width: 30px;" src="./media/music/aux-cable.svg">
                                 </a>
                             </li>
+							<li>
+							<!-- This is a hidden div element for use with WIFI -->
+                                <a data-toggle="tab" href="#menu_wifi">
+                                    <img id="wifi_ls" style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
+                                </a>
+                            </li>
+							<!-- This is a hidden div element for use with Bluetooth -->
+							<li>
+                              <a data-toggle="tab" href="#menu_bluetooth">
+                                    <img id="bluetooth_ls" style="display: none;" src="./media/menu/settings.svg">
+                              </a>
+                            </li>
+								
                         </ul>
 
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade">
-                            <h3>Settings</h3>
-
-                            <div class="row">
-                            <div class="col">
-                                <button type="button" class="col btn">Rock</button>
-                            </div>
-                            <div class="col">
-                                    <button type="button" class="col btn">Pop</button>
-                            </div>
-                            <div class="col">
-                                    <button type="button" class="col btn">Funk</button>
-                            </div>
-                            </div>
-                            <br>
-                            
-                            <input type="range" min="1" max="100" value="50" class ="col-12">
-                            <center><h5>Treble</h5></center>
-                            <input type="range" min="1" max="100" value="50" class ="col-12">
-                            <center><h5>Bass</h5></center>
-                            <input type="range" min="1" max="100" value="50" class ="col-12">
-                            <center><h5>Mids</h5></center>
-                            
-                                      
+								<h3>Settings</h3>
+								<div class="row">
+									<div class="col">
+										<button type="button" class="col btn">Rock</button>
+									</div>
+									<div class="col">
+											<button type="button" class="col btn">Pop</button>
+									</div>
+									<div class="col">
+											<button type="button" class="col btn">Funk</button>
+									</div>
+								</div>
+								<br>								
+								<input type="range" min="1" max="100" value="50" class ="col-12">
+								<center><h5>Treble</h5></center>
+								<input type="range" min="1" max="100" value="50" class ="col-12">
+								<center><h5>Bass</h5></center>
+								<input type="range" min="1" max="100" value="50" class ="col-12">
+								<center><h5>Mids</h5></center>     
                             </div>
                             <div id="menu1" class="tab-pane  in active">
                                 <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;" src="./media/music/guy.svg">
@@ -112,6 +121,14 @@
                             </div>
                             <div id="menu3" class="tab-pane fade">
                                 <h3>Aux</h3>
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+							<div id="menu_wifi" class="tab-pane fade">
+                                <h3>WIFI</h3>
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+							<div id="menu_bluetooth" class="tab-pane fade">
+                                <h3>WIFI</h3>
                                 <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             </div>
                         </div>
