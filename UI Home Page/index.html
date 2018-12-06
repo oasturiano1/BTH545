@@ -7,41 +7,41 @@
     <title>Sweet UI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/bootstrap.min.js"></script>
-	<script>				
-									function time(){
-										var today = new Date();
-										var h = today.getHours();
-										var m = today.getMinutes();
-									 
-										m = checkTime(m);
-									 
-										document.getElementById('clock').innerHTML = h + ":" + m;
-										console.log(h + ":" + m);
-										var t = setTimeout(time, 800);
-									}
+    <script>				
+        function time() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
 
-									function checkTime(i) {
-										if (i < 10) {i = "0" + i};
-										return i;
-									}
-														
-	</script>
-				
-							
-	</head>
+            m = checkTime(m);
+
+            document.getElementById('clock').innerHTML = h + ":" + m;
+            console.log(h + ":" + m);
+            var t = setTimeout(time, 800);
+        }
+
+        function checkTime(i) {
+            if (i < 10) { i = "0" + i };
+            return i;
+        }
+
+    </script>
+
+
+</head>
 
 <body onLoad="time()">
     <div class="container-fluid">
         <div class="row">
             <div class="col-3" id="sidebar">
                 <div class="row" id="speedometer">
-					<div class="column">
-						<img style="height: 300px; width: 300px;" src="./media/speedometer/speedometer.png">
-					</div>
+                    <div class="column">
+                        <img style="height: 300px; width: 300px;" src="./media/speedometer/speedometer.png">
+                    </div>
                 </div>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0) row" class="closebtn" onclick="closeNav()">&times;</a>
@@ -90,33 +90,41 @@
 
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade">
-								<h3>Settings</h3>
-								<div class="row">
-									<div class="col">
-										<button type="button" class="col btn">Rock</button>
-									</div>
-									<div class="col">
-											<button type="button" class="col btn">Pop</button>
-									</div>
-									<div class="col">
-											<button type="button" class="col btn">Funk</button>
-									</div>
-								</div>
-								<br>								
-								<input type="range" min="1" max="100" value="50" class ="col-12">
-								<center><h5>Treble</h5></center>
-								<input type="range" min="1" max="100" value="50" class ="col-12">
-								<center><h5>Bass</h5></center>
-								<input type="range" min="1" max="100" value="50" class ="col-12">
-								<center><h5>Mids</h5></center>     
+                                <h3>Settings</h3>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <button type="button" class="col btn">Rock</button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="col btn">Pop</button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="col btn">Funk</button>
+                                    </div>
+                                </div>
+                                <br>
+
+                                <input type="range" min="1" max="100" value="50" class="col-12">
+                                <center>
+                                    <h5>Treble</h5>
+                                </center>
+                                <input type="range" min="1" max="100" value="50" class="col-12">
+                                <center>
+                                    <h5>Bass</h5>
+                                </center>
+                                <input type="range" min="1" max="100" value="50" class="col-12">
+                                <center>
+                                    <h5>Mids</h5>
+                                </center>
                             </div>
                             <div id="menu1" class="tab-pane  in active">
-                                <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;" src="./media/music/guy.svg">
+                                <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;"
+                                    src="./media/music/guy.svg">
                                 <center>
                                     <audio controls>
-                                       
-                                        <source src="media/musicmedia/fsm-team-back-home.mp3" type="audio/mpeg">
-                                    Your browser does not support the audio element.
+
+                                        <source src="media/musicmedia/fsm-team-back-home.mp3" type="audio/mpeg"> Your browser does not support the audio element.
                                     </audio>
                                 </center>
                             </div>
@@ -145,34 +153,34 @@
                         <div class="row">
                             <ul class="nav nav-tabs">
                                 <li class="active">
-                                    <a data-toggle="tab" href="#home">
+                                    <a data-toggle="tab" href="#menu1">
                                         <img style="height: 50px; width: 30px;" src="./media/menu/musical-note.svg">
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" href="#menu1">
+                                    <a data-toggle="tab" >
                                         <img style="height: 50px; width: 30px;" src="./media/menu/gps-arrow.svg">
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" href="#menu2">
+                                    <a data-toggle="tab" >
                                         <img style="height: 50px; width: 30px;" src="./media/menu/car-compact.svg">
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" href="#menu3">
+                                    <a data-toggle="tab">
                                         <img style="height: 50px; width: 30px;" src="./media/menu/thermometer.svg">
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" href="#menu3">
+                                    <a data-toggle="tab" >
                                         <img style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-              </div>
+                </div>
                 <div class="row" id="menu">
                     <img src="./media/menu/menu.svg" class="side_menu_button" onclick="openNav()" />
                 </div>
@@ -218,13 +226,8 @@
 					</div>
 				</div>
 			
-                <div class="row">
-                    <img src="../gpsmap.jpg" class="img_gps" alt="GPS">
-					<table style="width:50%">
-						<tr>
-							<td>Arriving in 10 minutes to 112 Southway Rd</td>
-						</tr>
-					</table>
+                <div class="notification">
+                    <h3>Arriving in 10 minutes to 112 Southway Rd</h3>
                 </div>
             </div>
         </div>
@@ -272,49 +275,175 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div>
-            <button style="width: 0;
+    <div class="row controlPanel">
+        <div class="col">
+            <div>
+                <button style="width: 0;
                 height: 0px;
                 border-left: 25px solid transparent;
                 border-right: 25px solid transparent;
                 border-bottom: 50px solid #555;
                 margin-left: 500px;
-                margin-top: 500px;">
-            </button>
-        </div>
-        <div>
-            <button style="width: 0;
+                margin-top: 200px;">
+                </button>
+            </div>
+            <div>
+                <button style="width: 0;
                 height: 0;
                 border-top: 25px solid transparent;
                 border-right: 50px solid #555;
                 border-bottom: 25px solid transparent;
                 margin-left: 400px;
                 margin-top: 20px;">
-            </button>
-            <button style=" height: 50px;
+                </button>
+                <button style=" height: 50px;
                 width: 50px;
                 background-color: #555;
                 border-radius: 50%;
                 margin-left: 37px;
                 margin-right: 37px;">
-            </button>
-            <button style="width: 0;
+                </button>
+                <button style="width: 0;
                 height: 0;
                 border-top: 25px solid transparent;
                 border-left: 50px solid #555;
                 border-bottom: 25px solid transparent;">
-            </button>
-        </div>
-        <div>
-            <button style="width: 0;
+                </button>
+            </div>
+            <div>
+                <button style="width: 0;
                 height: 0;
                 border-left: 25px solid transparent;
                 border-right: 25px solid transparent;
                 border-top: 50px solid #555;
                 margin-left: 500px;
                 margin-top: 20px;">
-            </button>
+                </button>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <button style=" height: 50px;
+            width: 50px;
+            background-color: #555;
+            border-radius: 50%;
+            margin-left: 37px;
+            margin-right: 37px;
+            margin-top: 50px;">
+                </button>
+                <button style=" height: 50px;
+            width: 50px;
+            background-color: #555;
+            border-radius: 50%;
+            margin-left: 37px;
+            margin-right: 37px;
+            margin-top: 50px;">
+                </button>
+                <button style=" height: 50px;
+            width: 50px;
+            background-color: #555;
+            border-radius: 50%;
+            margin-left: 37px;
+            margin-right: 37px;
+            margin-top: 50px;">
+                </button>
+                <button style=" height: 50px;
+            width: 50px;
+            background-color: #555;
+            border-radius: 50%;
+            margin-left: 37px;
+            margin-right: 37px;
+            margin-top: 50px;">
+                </button>
+                <button style=" height: 50px;
+            width: 50px;
+            background-color: #555;
+            border-radius: 50%;
+            margin-left: 37px;
+            margin-right: 37px;
+            margin-top: 50px;">
+                </button>
+            </div>
+            <div class="row">
+                <div class="slidecontainer" style="margin-top: 20px">
+                    <input type="range" min="1" max="100" value="50" class="sliderz" id="myRange">
+                </div>
+            </div>
+            <div class="row">
+                    <button style=" height: 50px;
+                    width: 50px;
+                    background-color: #555;
+                    border-radius: 50%;
+                    margin-left: 37px;
+                    margin-right: 37px;
+                    margin-top: 150px;">
+                        </button>
+                        <button style=" height: 50px;
+                    width: 50px;
+                    background-color: #555;
+                    border-radius: 50%;
+                    margin-left: 37px;
+                    margin-right: 37px;
+                    margin-top: 150px;">
+                        </button>
+            </div>
+            <div class="row">
+                    <button style=" height: 50px;
+                    width: 50px;
+                    background-color: #555;
+                    border-radius: 50%;
+                    margin-left: 37px;
+                    margin-right: 37px;
+                    margin-top: 50px;
+                    margin-bottom: 50px">
+                        </button>
+                        <button style=" height: 50px;
+                    width: 50px;
+                    background-color: #555;
+                    border-radius: 50%;
+                    margin-left: 37px;
+                    margin-right: 37px;
+                    margin-top: 50px;
+                    margin-bottom: 50px">
+                        </button>
+            </div>
+            <div class="row">
+                    <p style="
+                    margin-left: 55px;
+                    margin-right: 37px;">P
+                    </p>
+                    <p style="
+                    margin-left: 75px;
+                    margin-right: 37px;">D
+                    </p>
+                    <p style="
+                    margin-left: 75px;
+                    margin-right: 37px;">R
+                    </p>  
+            </div>
+            <div class="row">
+                    <button style=" height: 50px;
+                    width: 50px;
+                    background-color: #555;
+                    border-radius: 50%;
+                    margin-left: 37px;
+                    margin-right: 37px;">
+                        </button>
+                        <button style=" height: 50px;
+                    width: 50px;
+                    background-color: #555;
+                    border-radius: 50%;
+                    margin-left: 37px;
+                    margin-right: 37px;">
+                        </button>
+                        <button style=" height: 50px;
+                    width: 50px;
+                    background-color: #555;
+                    border-radius: 50%;
+                    margin-left: 37px;
+                    margin-right: 37px;">
+                        </button>
+            </div>
         </div>
     </div>
     <!--<iframe src="../SteeringWheel/index.html" class="iframe_size" id="controls"></iframe>-->
@@ -352,13 +481,13 @@
         </div>
     </div>
     -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        
+
     <script src="./js/main.js"></script>
 </body>
 
@@ -380,11 +509,11 @@
 </script>-->
 
 <system.webServer>
-        <httpProtocol allowKeepAlive="true" >
-          <customHeaders>
+    <httpProtocol allowKeepAlive="true">
+        <customHeaders>
             <add name="X-Frame-Options" value="*" />
-          </customHeaders>
-        </httpProtocol>
-    </system.webServer>
+        </customHeaders>
+    </httpProtocol>
+</system.webServer>
 
 </html>
