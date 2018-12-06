@@ -10,6 +10,17 @@ function upArrow() {
   alert("wow")
 }
 
+function toggleVol(){
+	
+	  if(document.getElementById("togVol").style.display == "none"){
+		 
+		  document.getElementById("togVol").style.display = "block";
+		  
+	  }else{
+		  
+		  document.getElementById("togVol").style.display="none";
+	  }
+}
 document.getElementById("controls").contentWindow.document.getElementById("up").addEventListener("click, upArrow(), false");
 
 
