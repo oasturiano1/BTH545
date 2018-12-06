@@ -7,6 +7,7 @@
     <title>Sweet UI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/bootstrap.min.js"></script>
@@ -28,7 +29,9 @@
 										return i;
 									}
 														
-								</script>
+	</script>
+				
+							
 	</head>
 
 <body onLoad="time()">
@@ -36,7 +39,9 @@
         <div class="row">
             <div class="col-3" id="sidebar">
                 <div class="row" id="speedometer">
-                    SPEEDOMETER
+					<div class="column">
+						<img style="height: 300px; width: 300px;" src="./media/speedometer/speedometer.png">
+					</div>
                 </div>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -113,7 +118,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+              </div>
                 <div class="row" id="menu">
                     <img src="./media/menu/menu.svg" class="side_menu_button" onclick="openNav()" />
                 </div>
@@ -137,23 +142,35 @@
 							</div>
 								
 							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/sound-circle.svg" class="imgs" alt="Light Beam" >	  
+								<img src="./media/topbar/sound-circle.svg" id="volume"  onclick="toggleVol()" class="imgs" alt="Light Beam" >	  
 							</div>
 								
 							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/bluetooth-circle.svg" class="imgs" alt="Light Beam" >	  
+								<img src="./media/topbar/bluetooth-circle.svg" id="bluetooth" onclick="toggleBlueTooth()" class="imgs" alt="Light Beam" >	  
 							</div>
 							
-						<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/wifi-circle.svg" class="imgs" alt="Light Beam" >	  
+							<div class ="col-sm rounded-circle border-dark">
+								<img src="./media/topbar/wifi-circle.svg" id="wifi" class="imgs" onclick="toggleWifi()" alt="Light Beam" >	  
 							</div>
 							<div class ="col-sm textBig rounded-circle" id="clock">
 							</div>
 						</div>
+						
+					</div>
 				</div>
-			</div>
+				<div id="togBar" class="row">
+					<div class="container-fluid border-dark rounded" id="top-bar">
+					Volume Control 
+					</div>
+				</div>
+			
                 <div class="row">
                     <img src="../gpsmap.jpg" class="img_gps" alt="GPS">
+					<table style="width:50%">
+						<tr>
+							<td>Arriving in 10 minutes to 112 Southway Rd</td>
+						</tr>
+					</table>
                 </div>
             </div>
         </div>
