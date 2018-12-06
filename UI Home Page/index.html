@@ -10,33 +10,150 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/bootstrap.min.js"></script>
+	<script>				
+									function time(){
+										var today = new Date();
+										var h = today.getHours();
+										var m = today.getMinutes();
+									 
+										m = checkTime(m);
+									 
+										document.getElementById('clock').innerHTML = h + ":" + m;
+										console.log(h + ":" + m);
+										var t = setTimeout(time, 800);
+									}
 
+									function checkTime(i) {
+										if (i < 10) {i = "0" + i};
+										return i;
+									}
+														
+								</script>
+	</head>
 
-
-</head>
-
-<body>
-    
+<body onLoad="time()">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4" id="sidebar">
+            <div class="col-3" id="sidebar">
                 <div class="row" id="speedometer">
                     SPEEDOMETER
                 </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="container">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a data-toggle="tab" href="#home">
+                                    <img style="height: 50px; width: 80px;" src="./media/menu/settings.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#menu1">
+                                    <img style="height: 50px; width: 100px;" src="./media/music/spotify.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#menu2">
+                                    <img style="height: 50px; width: 100px;" src="./media/music/radio.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#menu3">
+                                    <img style="height: 50px; width: 100px;" src="./media/music/aux-cable.svg">
+                                </a>
+                            </li>
+                        </ul>
 
-
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane in active">
+                                    <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;" src="./media/music/guy.svg">
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <h3>Menu 1</h3>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat.</p>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                                <h3>Menu 2</h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam.</p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                                <h3>Menu 3</h3>
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                        </div>
+                        <div style="position: absolute; bottom: 30px;">
+                            <ul class="nav nav-tabs">
+                                <li class="active">
+                                    <a data-toggle="tab" href="#home">
+                                        <img style="height: 50px; width: 70px;" src="./media/menu/musical-note.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#menu1">
+                                        <img style="height: 50px; width: 70px;" src="./media/menu/gps-arrow.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#menu2">
+                                        <img style="height: 50px; width: 70px;" src="./media/menu/car-compact.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#menu3">
+                                        <img style="height: 50px; width: 70px;" src="./media/menu/thermometer.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#menu3">
+                                        <img style="height: 50px; width: 70px;" src="./media/menu/settings.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="row" id="menu">
                     <img src="./media/menu/menu.svg" class="side_menu_button" onclick="openNav()" />
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-9">
+               <div class="row">
+					<div class="container-fluid border-dark rounded" id="top-bar">
+						<div class="row">
+							<div class ="col-sm rounded-circle border-dark">
+									<img src="./media/topbar/highbeam-circle.svg" class="imgs" alt="Light Beam" >	  
+							</div>
+							<div class ="col-sm rounded-circle border-dark">
+								<img src="./media/topbar/doors-circle.svg" class="imgs" alt="Light Beam" >	  
+							</div>
+							
+							<div class ="col-sm rounded-circle border-dark">
+								  
+							</div>
+							<div class ="col-sm rounded-circle border-dark">
+								  
+							</div>
+								
+							<div class ="col-sm rounded-circle border-dark">
+								<img src="./media/topbar/sound-circle.svg" class="imgs" alt="Light Beam" >	  
+							</div>
+								
+							<div class ="col-sm rounded-circle border-dark">
+								<img src="./media/topbar/bluetooth-circle.svg" class="imgs" alt="Light Beam" >	  
+							</div>
+							
+						<div class ="col-sm rounded-circle border-dark">
+								<img src="./media/topbar/wifi-circle.svg" class="imgs" alt="Light Beam" >	  
+							</div>
+							<div class ="col-sm textBig rounded-circle" id="clock">
+							</div>
+						</div>
+				</div>
+			</div>
                 <div class="row">
-                    <div class="col-12" id="top-bar">
-                        stuff
-                    </div>
-                </div>
-                <div class="row">
-                    <img src="../gpsmap.jpg" alt="GPS">
+                    <img src="../gpsmap.jpg" class="img_gps" alt="GPS">
                 </div>
             </div>
         </div>

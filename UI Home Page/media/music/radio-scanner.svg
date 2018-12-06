@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 235.5 187.506">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        stroke: #f8f6f6;
+      }
+
+      .cls-2 {
+        stroke: #4694ff;
+      }
+
+      .cls-3 {
+        fill: #707070;
+        font-size: 18px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        fill: #f8f6f6;
+        font-size: 24px;
+      }
+
+      .cls-5 {
+        fill: #2b2a2a;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(-123.5 -594)">
+    <path id="Path_2070" data-name="Path 2070" class="cls-1" d="M0,17.359V126" transform="translate(134.5 655.5)"/>
+    <line id="Line_50" data-name="Line 50" class="cls-1" y2="126" transform="translate(144.5 655.5)"/>
+    <line id="Line_51" data-name="Line 51" class="cls-2" x1="1" y2="155" transform="translate(154.5 626.5)"/>
+    <line id="Line_52" data-name="Line 52" class="cls-1" y2="126" transform="translate(165.5 655.5)"/>
+    <line id="Line_53" data-name="Line 53" class="cls-1" y2="126" transform="translate(175.5 655.5)"/>
+    <line id="Line_54" data-name="Line 54" class="cls-1" y2="126" transform="translate(185.5 655.5)"/>
+    <line id="Line_55" data-name="Line 55" class="cls-2" x1="1" y2="155" transform="translate(195.5 626.5)"/>
+    <line id="Line_56" data-name="Line 56" class="cls-1" y2="126" transform="translate(206.5 655.5)"/>
+    <line id="Line_57" data-name="Line 57" class="cls-1" y2="126" transform="translate(216.5 655.5)"/>
+    <line id="Line_58" data-name="Line 58" class="cls-1" y2="126" transform="translate(226.5 655.5)"/>
+    <line id="Line_59" data-name="Line 59" class="cls-2" x1="1" y2="155" transform="translate(236.5 626.5)"/>
+    <line id="Line_60" data-name="Line 60" class="cls-1" y2="126" transform="translate(247.5 655.5)"/>
+    <line id="Line_61" data-name="Line 61" class="cls-1" y2="126" transform="translate(257.5 655.5)"/>
+    <line id="Line_62" data-name="Line 62" class="cls-1" y2="126" transform="translate(267.5 655.5)"/>
+    <path id="Path_2071" data-name="Path 2071" class="cls-1" d="M0,49.228V126" transform="translate(124.5 655.5)"/>
+    <line id="Line_64" data-name="Line 64" class="cls-1" y2="103" transform="translate(134.5 678.5)"/>
+    <line id="Line_65" data-name="Line 65" class="cls-1" y2="126" transform="translate(144.5 655.5)"/>
+    <line id="Line_66" data-name="Line 66" class="cls-2" x1="1" y2="155" transform="translate(154.5 626.5)"/>
+    <line id="Line_67" data-name="Line 67" class="cls-1" y2="126" transform="translate(165.5 655.5)"/>
+    <line id="Line_68" data-name="Line 68" class="cls-1" y2="126" transform="translate(175.5 655.5)"/>
+    <line id="Line_69" data-name="Line 69" class="cls-1" y2="126" transform="translate(185.5 655.5)"/>
+    <line id="Line_70" data-name="Line 70" class="cls-2" x1="1" y2="155" transform="translate(195.5 626.5)"/>
+    <line id="Line_71" data-name="Line 71" class="cls-1" y2="126" transform="translate(206.5 655.5)"/>
+    <line id="Line_72" data-name="Line 72" class="cls-1" y2="126" transform="translate(216.5 655.5)"/>
+    <line id="Line_73" data-name="Line 73" class="cls-1" y2="126" transform="translate(226.5 655.5)"/>
+    <line id="Line_74" data-name="Line 74" class="cls-2" x1="1" y2="155" transform="translate(236.5 626.5)"/>
+    <line id="Line_75" data-name="Line 75" class="cls-1" y2="126" transform="translate(247.5 655.5)"/>
+    <line id="Line_76" data-name="Line 76" class="cls-1" y2="126" transform="translate(257.5 655.5)"/>
+    <line id="Line_77" data-name="Line 77" class="cls-1" y2="126" transform="translate(267.5 655.5)"/>
+    <path id="Path_2073" data-name="Path 2073" class="cls-1" d="M0,17.359V126" transform="translate(347.444 655.5)"/>
+    <line id="Line_78" data-name="Line 78" class="cls-1" y2="126" transform="translate(337.444 655.5)"/>
+    <line id="Line_83" data-name="Line 83" class="cls-2" x2="1" y2="155" transform="translate(325.604 626.5)"/>
+    <line id="Line_84" data-name="Line 84" class="cls-1" y2="126" transform="translate(314.325 655.5)"/>
+    <line id="Line_85" data-name="Line 85" class="cls-1" y2="126" transform="translate(300.5 655.5)"/>
+    <line id="Line_86" data-name="Line 86" class="cls-1" y2="126" transform="translate(290.5 655.5)"/>
+    <line id="Line_87" data-name="Line 87" class="cls-2" x2="1" y2="155" transform="translate(279.5 626.5)"/>
+    <path id="Path_2074" data-name="Path 2074" class="cls-1" d="M0,49.228V126" transform="translate(357.444 655.5)"/>
+    <line id="Line_88" data-name="Line 88" class="cls-1" y2="103" transform="translate(347.444 678.5)"/>
+    <line id="Line_89" data-name="Line 89" class="cls-1" y2="126" transform="translate(337.444 655.5)"/>
+    <line id="Line_94" data-name="Line 94" class="cls-2" x2="1" y2="155" transform="translate(325.604 626.5)"/>
+    <line id="Line_95" data-name="Line 95" class="cls-1" y2="126" transform="translate(314.325 655.5)"/>
+    <line id="Line_96" data-name="Line 96" class="cls-1" y2="126" transform="translate(300.5 655.5)"/>
+    <line id="Line_97" data-name="Line 97" class="cls-1" y2="126" transform="translate(290.5 655.5)"/>
+    <line id="Line_98" data-name="Line 98" class="cls-2" x2="1" y2="155" transform="translate(279.5 626.5)"/>
+    <text id="_92.6" data-name="92.6" class="cls-3" transform="translate(179 603)"><tspan x="0" y="19">92.6</tspan></text>
+    <text id="_94.7" data-name="94.7" class="cls-4" transform="translate(218 620)"><tspan x="0" y="0">94.7</tspan></text>
+    <text id="_91.2" data-name="91.2" class="cls-5" transform="translate(143 610)"><tspan x="0" y="13">91.2</tspan></text>
+    <text id="_111.2" data-name="111.2" class="cls-3" transform="translate(262 603)"><tspan x="0" y="19">111.2</tspan></text>
+    <text id="_115.6" data-name="115.6" class="cls-5" transform="translate(313 610)"><tspan x="0" y="13">115.6</tspan></text>
+  </g>
+</svg>
