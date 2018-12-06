@@ -30,7 +30,8 @@ function toggleVol(){
 function toggleBlueTooth(){
 	let btn = document.getElementById("bluetooth");
 	let x = document.getElementById("togBar");
-	  if(x.style.display == "none"){
+	let ls = document.getElementById("bluetooth_ls");
+		if(x.style.display == "none"){
 		 
 		 btn.style.border = '4px solid blue';
 		  x.style.display = "block";
@@ -40,11 +41,13 @@ function toggleBlueTooth(){
 		  btn.style.backgroundColor = '';
 		  x.style.display="none";
 	  }
+	  ls.click();
 }
 function toggleWifi(){
 	let btn = document.getElementById("wifi");
 	let x = document.getElementById("togBar");
-	  if(x.style.display == "none"){
+	let ls = document.getElementById("wifi_ls");
+		if(x.style.display == "none"){
 		 
 		 btn.style.border = '4px solid blue';
 		  x.style.display = "block";
@@ -54,6 +57,7 @@ function toggleWifi(){
 		  btn.style.backgroundColor = '';
 		  x.style.display="none";
 	  }
+	  ls.click();
 }
 function toggleNotBar(){
 	
