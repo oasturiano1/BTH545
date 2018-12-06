@@ -142,15 +142,15 @@
 							</div>
 								
 							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/sound-circle.svg" class="imgs" alt="Light Beam" >	  
+								<img src="./media/topbar/sound-circle.svg" id="volume"  onclick="toggleVol()" class="imgs" alt="Light Beam" >	  
 							</div>
 								
 							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/bluetooth-circle.svg" class="imgs" alt="Light Beam" >	  
+								<img src="./media/topbar/bluetooth-circle.svg" id="bluetooth" onclick="toggleBlueTooth()" class="imgs" alt="Light Beam" >	  
 							</div>
 							
 							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/wifi-circle.svg" class="imgs" onclick="toggleVol()" alt="Light Beam" >	  
+								<img src="./media/topbar/wifi-circle.svg" id="wifi" class="imgs" onclick="toggleWifi()" alt="Light Beam" >	  
 							</div>
 							<div class ="col-sm textBig rounded-circle" id="clock">
 							</div>
@@ -158,7 +158,7 @@
 						
 					</div>
 				</div>
-				<div id="togVol" class="row">
+				<div id="togBar" class="row">
 					<div class="container-fluid border-dark rounded" id="top-bar">
 					Volume Control 
 					</div>
