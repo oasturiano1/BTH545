@@ -129,7 +129,7 @@
                                 <center>
                                     <audio controls>
 
-                                        <source src="media/musicmedia/fsm-team-back-home.mp3" type="audio/mpeg"> Your
+                                        <source src="media/musicmedia/Kappa.mp3" type="audio/mpeg"> Your
                                         browser does not support the audio element.
                                     </audio>
                                 </center>
@@ -178,9 +178,9 @@
                                 <h3>BLUETOOTH</h3>
                                 <button type="button" class="col-5 btn btn-danger active core_button">Off</button>
                                 <button type="button" class="col-5 btn btn-primary core_button">On</button>
-                                <button type="button" class="col-10 btn btn-light core_button">Bobs Phone</button>
-                                <button type="button" class="col-10 btn btn-light core_button">Greg_234</button>
-                                <button type="button" class="col-10 btn btn-primary core_button">IPhone XS {Call Audio,
+                                <button type="button" class="col-10 btn btn-light core_button">Holo</button>
+                                <button type="button" class="col-10 btn btn-light core_button">Lawrence</button>
+                                <button type="button" class="col-10 btn btn-primary core_button">Deku's Phone {Call Audio,
                                     Speakers}</button>
                                 <button type="button" class="col-10 btn btn-light core_button">Kirito</button>
                                 <button type="button" class="col-10 btn btn-light core_button">Asuna</button>
@@ -189,7 +189,7 @@
                             <div id="menu_vol" class="tab-pane fade">
                                 <h3>Volume</h3>
                                 <center>
-                                    <h3 class="col-12"> - <input type="range" min="1" max="100" value="50" class="col-10 slider">
+                                    <h3 class="col-12"> - <input type="range" id="myRange1" min="1" max="100" value="50" class="col-10 slider">
                                         + </h3>
                                     <h5>Volume</h5>
                                     <button type="button" class="col-5 btn btn-danger active core_button " data-toggle="button">Mute</button>
@@ -268,8 +268,21 @@
                     </div>
                 </div>
                 <div id="togBar" class="row">
-                    <div class="container-fluid border-dark rounded" style="display: none;" id="top-bar">
-                        Volume Control
+                    <div class="container-fluid border-dark rounded justify-content-between" style="" id="top-bar">
+                       	 
+					   <div class ="border-dark">
+							<h2 class="voice_me">Set Destination to 112 Southway Road</h2>
+						
+					   </div>
+					   <div class ="border"></div>
+					    <div class ="border-dark col-5 ">
+						Listening for Commands...
+					   </div>
+					   <div class ="border-dark  float-right">
+							<h2 class="float-right voice_car">Ok! Setting your GPS to 112 Southway Road. </h2>
+					   </div>
+					   
+					   
                     </div>
                 </div>
 
@@ -347,7 +360,7 @@
                 margin-left: 400px;
                 margin-top: 20px;">
                 </button>
-                <button style=" height: 50px;
+                <button id="voice" onclick='toggleNotBar()' style=" height: 50px;
                 width: 50px;
                 background-color: #555;
                 border-radius: 50%;
@@ -417,7 +430,7 @@
             </div>
             <div class="row">
                 <div class="slidecontainer" style="margin-top: 20px">
-                    <input type="range" min="1" max="100" value="50" class="sliderz" id="myRange">
+                    <input type="range" id="myRange2" min="1" max="100" value="50" onclick='toggleVol_();' class="sliderz" >
                 </div>
             </div>
             <div class="row">
