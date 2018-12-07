@@ -1,3 +1,5 @@
+var radioSwitch = true;
+
 function openNav() {
 if (document.getElementById("mySidenav").style.width == "0px") {
   document.getElementById("mySidenav").style.width = "355px";
@@ -8,6 +10,14 @@ if (document.getElementById("mySidenav").style.width == "0px") {
 	document.getElementById("menu-button").style.marginLeft = "0px";
 	$('#menu-button').attr('src','./media/menu/menu.svg');
 }
+}
+
+function toggleRadio() {
+	if (radioSwitch)
+	$('#radioSwitch').attr('src','./media/music/fm.svg');
+	else 
+	$('#radioSwitch').attr('src','./media/music/am.svg');
+	radioSwitch = !radioSwitch;
 }
 
 function upArrow() {

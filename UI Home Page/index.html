@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/bootstrap.min.js"></script>
-    <script>				
+    <script>
         function time() {
             var today = new Date();
             var h = today.getHours();
@@ -39,12 +39,12 @@
         <div class="row">
             <div class="col-3" id="sidebar">
                 <div class="row" id="speedometer">
-                        <div class="column">
-                                <img style="width: 110px;" src="./media/speedometer/battery.png">
-                            </div>
-                            <div class="column">
-                                <img style="width: 245px;" src="./media/speedometer/speedometer.png">
-                            </div>
+                    <div class="column">
+                        <img style="width: 110px;" src="./media/speedometer/battery.png">
+                    </div>
+                    <div class="column">
+                        <img style="width: 245px;" src="./media/speedometer/speedometer.png">
+                    </div>
                 </div>
                 <img src="./media/menu/menu.svg" id="menu-button" class="side_menu_button" onclick="openNav()" />
                 <div id="mySidenav" class="sidenav">
@@ -71,25 +71,25 @@
                                     <img id="aux" style="height: 50px; width: 30px;" src="./media/music/aux-cable.svg">
                                 </a>
                             </li>
-							<li>
-							<!-- This is a hidden div element for use with WIFI -->
+                            <li>
+                                <!-- This is a hidden div element for use with WIFI -->
                                 <a data-toggle="tab" href="#menu_wifi">
                                     <img id="wifi_ls" style="display: none;" src="./media/menu/settings.svg">
                                 </a>
                             </li>
-							<!-- This is a hidden div element for use with Bluetooth -->
-							<li>
-                              <a data-toggle="tab" href="#menu_bluetooth">
+                            <!-- This is a hidden div element for use with Bluetooth -->
+                            <li>
+                                <a data-toggle="tab" href="#menu_bluetooth">
                                     <img id="bluetooth_ls" style="display: none;" src="./media/menu/settings.svg">
-                              </a>
+                                </a>
                             </li>
-								<!-- This is a hidden div element for use with Volume -->
-							<li>
-                              <a data-toggle="tab" href="#menu_vol">
+                            <!-- This is a hidden div element for use with Volume -->
+                            <li>
+                                <a data-toggle="tab" href="#menu_vol">
                                     <img id="volume_ls" style="display: none;" src="./media/menu/settings.svg">
-                              </a>
+                                </a>
                             </li>
-								
+
                         </ul>
 
                         <div class="tab-content">
@@ -125,54 +125,76 @@
                             <div id="menu1" class="tab-pane  in active">
                                 <img style="display: block; margin-left: auto; margin-right: auto; height: 350px; position: relative; top: 11git0px; width: 100%;"
                                     src="./media/music/guy.svg">
+
                                 <center>
                                     <audio controls>
 
-                                        <source src="media/musicmedia/fsm-team-back-home.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+                                        <source src="media/musicmedia/fsm-team-back-home.mp3" type="audio/mpeg"> Your
+                                        browser does not support the audio element.
                                     </audio>
                                 </center>
                             </div>
-                            <div id="menu2" class="tab-pane fade">
-                                <h3>Radio</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                                    totam rem aperiam.</p>
+                            <div id="menu2" class="tab-pane fade" style="text-align: center">
+                                <div class="row">
+                                        <div class="col-2">
+                                                <img style="margin-top: 50px" id="radioSwitch" onclick="toggleRadio()" src="media/music/am.svg" />
+                                            </div>
+                                    <div class="col-8">
+                                        <img src="media/music/radio-scanner.svg" style="width: 234px; margin: 0 auto;" />
+                                    </div>
+                                    <div class="col-2">
+                                            
+                                        </div>
+                                   
+                                </div>
+                                <div class="row">
+                                    <button type="button" class="col-3 btn" style="margin: 10px auto;">Scan</button>
+                                </div>
+                                <div class="row" style="padding: 0 10px">
+                                    <button type="button" class="col-2 btn" style="margin: 10px;">93.2</button>
+                                    <button type="button" class="col-2 btn" style="margin: 10px;">94.7</button>
+                                    <button type="button" class="col-2 btn" style="margin: 10px;">101.3</button>
+                                    <button type="button" class="col-2 btn" style="margin: 10px;">108.9</button>
+                                </div>
                             </div>
                             <div id="menu3" class="tab-pane fade">
-                                <h3>Aux</h3>
-                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p style="text-align: center;">No Sound Source Connected.</p>
                             </div>
-							<div id="menu_wifi" class="tab-pane fade">
+                            <div id="menu_wifi" class="tab-pane fade">
                                 <h3>WIFI</h3>
-                   
-								<button type="button" class="col-5 btn btn-danger active core_button "data-toggle="button">Off</button>
-								<button type="button" class="col-5 btn btn-primary core_button" data-toggle="button">On</button>
-                                <button type="button" class="col-10 btn btn-light core_button" data-toggle="button">FBI Van #451</button>
-								<button type="button" class="col-10 btn btn-light core_button" data-toggle="button">Senpai</button>
-								<button type="button" class="col-10 btn btn-primary core_button" data-toggle="button">Pretty Fly For A Wifi!</button>
-								<button type="button" class="col-10 btn btn-light core_button"data-toggle="button">Shiroe</button>
-								<button type="button" class="col-10 btn btn-light core_button" data-toggle="button">Akatsuki</button>
-								<button type="button" class="col-10 btn btn-light core_button" data-toggle="button">More(2)...</button>
+
+                                <button type="button" class="col-5 btn btn-danger active core_button " data-toggle="button">Off</button>
+                                <button type="button" class="col-5 btn btn-primary core_button" data-toggle="button">On</button>
+                                <button type="button" class="col-10 btn btn-light core_button" data-toggle="button">FBI
+                                    Van #451</button>
+                                <button type="button" class="col-10 btn btn-light core_button" data-toggle="button">Senpai</button>
+                                <button type="button" class="col-10 btn btn-primary core_button" data-toggle="button">Pretty
+                                    Fly For A Wifi!</button>
+                                <button type="button" class="col-10 btn btn-light core_button" data-toggle="button">Shiroe</button>
+                                <button type="button" class="col-10 btn btn-light core_button" data-toggle="button">Akatsuki</button>
+                                <button type="button" class="col-10 btn btn-light core_button" data-toggle="button">More(2)...</button>
                             </div>
-							<div id="menu_bluetooth" class="tab-pane fade">
+                            <div id="menu_bluetooth" class="tab-pane fade">
                                 <h3>BLUETOOTH</h3>
-								<button type="button" class="col-5 btn btn-danger active core_button">Off</button>
-								<button type="button" class="col-5 btn btn-primary core_button">On</button>
+                                <button type="button" class="col-5 btn btn-danger active core_button">Off</button>
+                                <button type="button" class="col-5 btn btn-primary core_button">On</button>
                                 <button type="button" class="col-10 btn btn-light core_button">Bobs Phone</button>
-								<button type="button" class="col-10 btn btn-light core_button">Greg_234</button>
-								<button type="button" class="col-10 btn btn-primary core_button">IPhone XS {Call Audio, Speakers}</button>
-								<button type="button" class="col-10 btn btn-light core_button">Kirito</button>
-								<button type="button" class="col-10 btn btn-light core_button">Asuna</button>
-								<button type="button" class="col-10 btn btn-light core_button">More(7)...</button>
+                                <button type="button" class="col-10 btn btn-light core_button">Greg_234</button>
+                                <button type="button" class="col-10 btn btn-primary core_button">IPhone XS {Call Audio,
+                                    Speakers}</button>
+                                <button type="button" class="col-10 btn btn-light core_button">Kirito</button>
+                                <button type="button" class="col-10 btn btn-light core_button">Asuna</button>
+                                <button type="button" class="col-10 btn btn-light core_button">More(7)...</button>
                             </div>
-							<div id="menu_vol" class="tab-pane fade">
+                            <div id="menu_vol" class="tab-pane fade">
                                 <h3>Volume</h3>
-								  <center>
-								 <h3 class="col-12"> - <input type="range" min="1" max="100" value="50" class="col-10 slider"> 
-								 + </h3>
+                                <center>
+                                    <h3 class="col-12"> - <input type="range" min="1" max="100" value="50" class="col-10 slider">
+                                        + </h3>
                                     <h5>Volume</h5>
-									<button type="button" class="col-5 btn btn-danger active core_button "data-toggle="button">Mute</button>
+                                    <button type="button" class="col-5 btn btn-danger active core_button " data-toggle="button">Mute</button>
                                 </center>
-								
+
                             </div>
                         </div>
                         <div class="row">
@@ -183,12 +205,12 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" >
+                                    <a data-toggle="tab">
                                         <img style="height: 50px; width: 30px;" src="./media/menu/gps-arrow.svg">
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" >
+                                    <a data-toggle="tab">
                                         <img style="height: 50px; width: 30px;" src="./media/menu/car-compact.svg">
                                     </a>
                                 </li>
@@ -198,7 +220,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" >
+                                    <a data-toggle="tab">
                                         <img style="height: 50px; width: 30px;" src="./media/menu/settings.svg">
                                     </a>
                                 </li>
@@ -208,46 +230,49 @@
                 </div>
             </div>
             <div class="col-9">
-               <div class="row">
-					<div class="container-fluid border-dark rounded" id="top-bar">
-						<div class="row">
-							<div class ="col-sm rounded-circle border-dark">
-									<img src="./media/topbar/highbeam-circle.svg" class="imgs" alt="Light Beam" >	  
-							</div>
-							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/doors-circle.svg" class="imgs" alt="Light Beam" >	  
-							</div>
-							
-							<div class ="col-sm rounded-circle border-dark">
-								  
-							</div>
-							<div class ="col-sm rounded-circle border-dark">
-								  
-							</div>
-								
-							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/sound-circle.svg" id="volume"  onclick="toggleVol()" class="imgs" alt="Light Beam" >	  
-							</div>
-								
-							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/bluetooth-circle.svg" id="bluetooth" onclick="toggleBlueTooth()" class="imgs" alt="Light Beam" >	  
-							</div>
-							
-							<div class ="col-sm rounded-circle border-dark">
-								<img src="./media/topbar/wifi-circle.svg" id="wifi" class="imgs" onclick="toggleWifi()" alt="Light Beam" >	  
-							</div>
-							<div class ="col-sm textBig rounded-circle" id="clock">
-							</div>
-						</div>
-						
-					</div>
-				</div>
-				<div id="togBar" class="row">
-					<div class="container-fluid border-dark rounded" style="display: none;" id="top-bar">
-					Volume Control 
-					</div>
-				</div>
-			
+                <div class="row">
+                    <div class="container-fluid border-dark rounded" id="top-bar">
+                        <div class="row">
+                            <div class="col-sm rounded-circle border-dark">
+                                <img src="./media/topbar/highbeam-circle.svg" class="imgs" alt="Light Beam">
+                            </div>
+                            <div class="col-sm rounded-circle border-dark">
+                                <img src="./media/topbar/doors-circle.svg" class="imgs" alt="Light Beam">
+                            </div>
+
+                            <div class="col-sm rounded-circle border-dark">
+
+                            </div>
+                            <div class="col-sm rounded-circle border-dark">
+
+                            </div>
+
+                            <div class="col-sm rounded-circle border-dark">
+                                <img src="./media/topbar/sound-circle.svg" id="volume" onclick="toggleVol()" class="imgs"
+                                    alt="Light Beam">
+                            </div>
+
+                            <div class="col-sm rounded-circle border-dark">
+                                <img src="./media/topbar/bluetooth-circle.svg" id="bluetooth" onclick="toggleBlueTooth()"
+                                    class="imgs" alt="Light Beam">
+                            </div>
+
+                            <div class="col-sm rounded-circle border-dark">
+                                <img src="./media/topbar/wifi-circle.svg" id="wifi" class="imgs" onclick="toggleWifi()"
+                                    alt="Light Beam">
+                            </div>
+                            <div class="col-sm textBig rounded-circle" id="clock">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="togBar" class="row">
+                    <div class="container-fluid border-dark rounded" style="display: none;" id="top-bar">
+                        Volume Control
+                    </div>
+                </div>
+
                 <div class="notification">
                     <h3>Arriving in 10 minutes to 112 Southway Rd</h3>
                 </div>
@@ -277,21 +302,25 @@
             <div class="tab-content">
                 <div id="home" class="tab-pane in active">
                     <h3>HOME</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
                         et dolore magna aliqua.</p>
                 </div>
                 <div id="menu1" class="tab-pane fade">
                     <h3>Menu 1</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
                 </div>
                 <div id="menu2" class="tab-pane fade">
                     <h3>Menu 2</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam
                         rem aperiam.</p>
                 </div>
                 <div id="menu3" class="tab-pane fade">
                     <h3>Menu 3</h3>
-                    <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                        explicabo.</p>
                 </div>
             </div>
         </div>
@@ -392,25 +421,25 @@
                 </div>
             </div>
             <div class="row">
-                    <button style=" height: 50px;
+                <button style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
                     margin-left: 37px;
                     margin-right: 37px;
                     margin-top: 150px;">
-                        </button>
-                        <button style=" height: 50px;
+                </button>
+                <button style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
                     margin-left: 37px;
                     margin-right: 37px;
                     margin-top: 150px;">
-                        </button>
+                </button>
             </div>
             <div class="row">
-                    <button style=" height: 50px;
+                <button style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
@@ -418,8 +447,8 @@
                     margin-right: 37px;
                     margin-top: 50px;
                     margin-bottom: 50px">
-                        </button>
-                        <button style=" height: 50px;
+                </button>
+                <button style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
@@ -427,44 +456,44 @@
                     margin-right: 37px;
                     margin-top: 50px;
                     margin-bottom: 50px">
-                        </button>
+                </button>
             </div>
             <div class="row">
-                    <p style="
+                <p style="
                     margin-left: 55px;
                     margin-right: 37px;">P
-                    </p>
-                    <p style="
+                </p>
+                <p style="
                     margin-left: 75px;
                     margin-right: 37px;">D
-                    </p>
-                    <p style="
+                </p>
+                <p style="
                     margin-left: 75px;
                     margin-right: 37px;">R
-                    </p>  
+                </p>
             </div>
             <div class="row">
-                    <button style=" height: 50px;
+                <button style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
                     margin-left: 37px;
                     margin-right: 37px;">
-                        </button>
-                        <button style=" height: 50px;
+                </button>
+                <button style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
                     margin-left: 37px;
                     margin-right: 37px;">
-                        </button>
-                        <button style=" height: 50px;
+                </button>
+                <button style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
                     margin-left: 37px;
                     margin-right: 37px;">
-                        </button>
+                </button>
             </div>
         </div>
     </div>
