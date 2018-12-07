@@ -179,9 +179,9 @@ td
     background: #222324;
     border-radius: 5px;
 
-    position: fixed;
+    position: absolute;
     left: 25%;
-    bottom: 0;
+    top: 90vh;
     width: 75%;
     max-width: 667px;
     text-align: center;
