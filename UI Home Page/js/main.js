@@ -47,7 +47,13 @@ function switchSong(){
 	
     var audio = document.getElementById("audio");
 	var source = document.getElementById("source");
-	
+	if(isNavOpen == false) {
+		openNav();
+	}else{
+		setTimeout(function(){
+		openNav();
+		}, 2000);
+	}
 	if(song == 1) {
 		source.src = './media/musicmedia/Bacca.mp3';
 		//song = 0;
@@ -65,20 +71,62 @@ function toggleVol_(){
 	
 	let lse = document.getElementById("myRange1");
 	let lse2 = document.getElementById("myRange2");
-	if(btn.style.border == ''){
+	if(btn.style.border == '' || isNavOpen == false){
 		  
 		if(isNavOpen == false) {
 			openNav();
+			btn.style.border = '4px solid blue';
+		}else{
+			console.log("Did not open nav");
 		}
-		btn.style.border = '4px solid blue';
+		
 		
 		 
+	}else{
+		
+		console.log("Did not open nav due to border or nav");
 	}
+	
+	btn.style.border == '';
 	ls.click();
 	//Update the slider value
 	lse.value = lse2.value;
 	
+}
+function goSetting(){
 	
+	let ls = document.getElementById("settings");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
+	
+}
+function goSpotify(){
+	
+	let ls = document.getElementById("spotify");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
+	
+}
+function goRadio(){
+	
+	let ls = document.getElementById("radio");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
+	
+}
+function goAux(){
+	
+	let ls = document.getElementById("aux");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
 	
 }
 //Toggles the menu for volume
