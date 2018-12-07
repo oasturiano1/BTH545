@@ -190,7 +190,7 @@
                                     <h3 class="col-12"> - <input type="range" id="myRange1" min="1" max="100" value="50" class="col-10 slider">
                                         + </h3>
                                     <h5>Volume</h5>
-                                    <button type="button" class="col-5 btn btn-danger active core_button " data-toggle="button">Mute</button>
+                                    <button type="button" class="col-5 btn btn-danger active core_button " onclick="toggleVol_(999)" data-toggle="button">Mute</button>
                                 </center>
 
                             </div>
@@ -230,7 +230,7 @@
             <div class="col-9">
                 <div class="row">
                     <div class="container-fluid border-dark rounded" id="top-bar">
-                        <dir class="row">
+                        <dirv class="row">
                             <div class="col-sm rounded-circle border-dark">
                                 <img src="./media/topbar/highbeam-circle.svg" class="imgs" alt="Light Beam">
                             </div>
@@ -264,7 +264,8 @@
                         </div>
 
                     </div>
-					  <div id="togBar" style="display: none;" class="row">
+                </div>
+                <div id="togBar" style="display: none;" class="row">
                     <div class="container-fluid border-dark rounded justify-content-between" style="" id="top-bar">
                        	 
 					   <div class ="border-dark">
@@ -275,7 +276,7 @@
 					    <div class ="border-dark col-5 ">
 						Listening for Commands...
 					   </div>
-					   <div class ="border-dark float-right">
+					   <div class ="border-dark  float-right">
 							<h2 class="float-right voice_car">Ok! Setting your GPS to 112 Southway Road. </h2>
 					   </div>
 					   
@@ -286,8 +287,6 @@
                 <div class="notification">
                     <h3>Arriving in 10 minutes to 112 Southway Rd</h3>
                 </div>
-                </div>
-              
             </div>
         </div>
     </div>
