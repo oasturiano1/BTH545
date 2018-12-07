@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 505.465 487">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #848483;
+        letter-spacing: 0.046em;
+      }
+
+      .cls-1 {
+        font-size: 30px;
+      }
+
+      .cls-1, .cls-13, .cls-16, .cls-17, .cls-3, .cls-7 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-2 {
+        fill: #0d0d0d;
+      }
+
+      .cls-3 {
+        font-size: 24px;
+      }
+
+      .cls-4 {
+        fill: #1f1f1f;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-11, .cls-13, .cls-14, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        font-size: 80px;
+      }
+
+      .cls-6, .cls-9 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+        letter-spacing: 0.026em;
+      }
+
+      .cls-7 {
+        font-size: 22px;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-8 {
+        opacity: 0.251;
+      }
+
+      .cls-9 {
+        font-size: 40px;
+      }
+
+      .cls-10, .cls-20 {
+        fill: none;
+      }
+
+      .cls-10 {
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-10, .cls-11 {
+        opacity: 0.102;
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-13 {
+        font-size: 32px;
+        letter-spacing: 0.036em;
+      }
+
+      .cls-15 {
+        fill: #222324;
+      }
+
+      .cls-16 {
+        fill: #f8f6f6;
+        font-size: 28px;
+      }
+
+      .cls-17 {
+        fill: #78849e;
+        font-size: 16px;
+      }
+
+      .cls-18 {
+        fill: #4694ff;
+      }
+
+      .cls-19 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.493" y1="1.009" x2="0.056" y2="0.245" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5a45"/>
+      <stop offset="1" stop-color="#ffdb45"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.062" x2="-0.061" y2="1.072" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8f4a"/>
+      <stop offset="1" stop-color="#ff5353"/>
+    </linearGradient>
+  </defs>
+  <g id="Drive-S" transform="translate(-30 50)">
+    <g id="Group_27" data-name="Group 27">
+      <text id="Battery" class="cls-1" transform="translate(140 285) rotate(-90)"><tspan x="91.646" y="32">Battery</tspan></text>
+      <g id="Group_26" data-name="Group 26">
+        <g id="Chart_6" data-name="Chart 6" transform="translate(20 -308)">
+          <rect id="Rectangle_429" data-name="Rectangle 429" class="cls-2" width="352" height="394.08" rx="60" transform="translate(160 258)"/>
+          <g id="Speed_Chart" data-name="Speed Chart" transform="translate(175 245)">
+            <text id="Miles_Left" data-name="Miles Left" class="cls-3" transform="translate(14 350)"><tspan x="61.67" y="26">17.3 miles left</tspan></text>
+            <g id="Chart" transform="translate(18.001 27.001)">
+              <path id="Inactive" class="cls-4" d="M112.327,268h0v-32.06a103.111,103.111,0,0,0,20.244-2.077,101.747,101.747,0,0,0,36.585-15.4,102.616,102.616,0,0,0,37.068-45.015,101.76,101.76,0,0,0,5.962-19.206,103.295,103.295,0,0,0,0-41.24A101.767,101.767,0,0,0,196.79,76.418a102.618,102.618,0,0,0-45.015-37.069,101.823,101.823,0,0,0-19.205-5.962,103.3,103.3,0,0,0-41.24,0,101.747,101.747,0,0,0-36.585,15.4A102.865,102.865,0,0,0,27.109,76.418c-.33.489-.662.989-.986,1.487L0,60.906c.411-.63.819-1.244,1.212-1.827A134.377,134.377,0,0,1,60.168,10.531,133.266,133.266,0,0,1,85.321,2.723a135.3,135.3,0,0,1,54.011,0,133.273,133.273,0,0,1,47.914,20.163,134.384,134.384,0,0,1,48.549,58.956,133.277,133.277,0,0,1,7.808,25.152,135.3,135.3,0,0,1,0,54.012A133.292,133.292,0,0,1,223.44,208.92a134.391,134.391,0,0,1-58.955,48.549,133.373,133.373,0,0,1-25.153,7.808A135.006,135.006,0,0,1,112.327,268Z" transform="translate(-32.792 227.661) rotate(-60)"/>
+              <path id="Active" class="cls-5" d="M26.123,77.905h0L0,60.906c.41-.629.818-1.243,1.212-1.827A134.377,134.377,0,0,1,60.168,10.531,133.266,133.266,0,0,1,85.321,2.723a135.3,135.3,0,0,1,54.011,0,133.625,133.625,0,0,1,17.658,4.9L146.505,37.292A102.275,102.275,0,0,0,39.6,61.276,103.146,103.146,0,0,0,27.109,76.418c-.329.488-.661.988-.985,1.486Z" transform="translate(-32.792 227.661) rotate(-60)"/>
+            </g>
+            <g id="Speed_Details" data-name="Speed Details">
+              <text id="Time" class="cls-6" transform="translate(156 240)"><tspan x="-47.056" y="0">42</tspan></text>
+              <text id="Time-2" data-name="Time" class="cls-7" transform="translate(156 268)"><tspan x="-26.048" y="0">MPH</tspan></text>
+            </g>
+            <g id="Indicators">
+              <path id="Path_15" data-name="Path 15" class="cls-8" d="M0,0,18.419,6.739,4.692,18.915Z" transform="translate(94 149)"/>
+              <path id="Path_16" data-name="Path 16" class="cls-8" d="M0,0,18.419,6.739,4.692,18.915Z" transform="translate(67.419 118.915) rotate(-180)"/>
+            </g>
+            <g id="Speed_Details-2" data-name="Speed Details" transform="translate(7 91)">
+              <text id="Time-3" data-name="Time" class="cls-9" transform="translate(146 242)"><tspan x="-14.746" y="0">D</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Battery_25_" data-name="Battery 25%" transform="translate(-4074 420) rotate(-90)">
+          <g id="Body" transform="translate(107 3973)">
+            <g id="Rectangle_105" data-name="Rectangle 105" class="cls-10" transform="translate(53 131)">
+              <rect class="cls-19" width="207" height="110" rx="26"/>
+              <rect class="cls-20" x="3" y="3" width="201" height="104" rx="23"/>
+            </g>
+            <path id="Subtraction_19" data-name="Subtraction 19" class="cls-11" d="M-1976-3012h0v-40a19.878,19.878,0,0,1,7.785,1.572,19.938,19.938,0,0,1,6.358,4.286,19.938,19.938,0,0,1,4.286,6.357A19.874,19.874,0,0,1-1956-3032a19.874,19.874,0,0,1-1.572,7.785,19.938,19.938,0,0,1-4.286,6.357,19.938,19.938,0,0,1-6.358,4.286A19.88,19.88,0,0,1-1976-3012Z" transform="translate(2244 3218)"/>
+          </g>
+          <rect id="Juice" class="cls-2" width="187" height="90" rx="17" transform="translate(170 4114)"/>
+          <path id="Juice-2" data-name="Juice" class="cls-12" d="M17,0H57a0,0,0,0,1,0,0V90a0,0,0,0,1,0,0H17A17,17,0,0,1,0,73V17A17,17,0,0,1,17,0Z" transform="translate(170 4114)"/>
+          <text id="_25_" data-name="25%" class="cls-13" transform="translate(227 4120) rotate(90)"><tspan x="10.504" y="35">25%</tspan></text>
+        </g>
+        <path id="play_icon" class="cls-14" d="M988.584,2000.262v35.494l26.348-17.984Z" transform="translate(-552 -1615.278)"/>
+        <path id="play_icon-2" data-name="play_icon" class="cls-14" d="M988.584,2000.262v35.494l26.348-17.984Z" transform="translate(1099.516 2420.739) rotate(-180)"/>
+        <rect id="Container" class="cls-15" width="269.527" height="70" rx="10" transform="translate(152 367)"/>
+      </g>
+    </g>
+    <text id="Broadway_Rd" data-name="Broadway Rd" class="cls-16" transform="translate(228 398)"><tspan x="0" y="0">Broadway Rd</tspan></text>
+    <text id="_0.2_mi" data-name="0.2 mi" class="cls-17" transform="translate(228 421)"><tspan x="0" y="0">0.2 mi</tspan></text>
+    <path id="Path_792" data-name="Path 792" class="cls-18" d="M12.852,26.652a1.028,1.028,0,0,0,1.03,1.02h17.1V20.334L47.822,32.026l-16.839,11.7V36.339h-17.1A9.744,9.744,0,0,1,4.1,26.652V0h8.752Z" transform="translate(206.211 425.222) rotate(180)"/>
+  </g>
+</svg>

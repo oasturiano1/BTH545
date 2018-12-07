@@ -40,10 +40,7 @@
             <div class="col-3" id="sidebar">
                 <div class="row" id="speedometer">
                     <div class="column">
-                        <img style="width: 110px;" src="./media/speedometer/battery.png">
-                    </div>
-                    <div class="column">
-                        <img style="width: 245px;" src="./media/speedometer/speedometer.png">
+                        <img id="topleft" style="width: 355px;" src="./media/Drive-S.svg"/>
                     </div>
                 </div>
                 <img src="./media/menu/menu.svg" id="menu-button" class="side_menu_button" onclick="openNav()" />
@@ -233,7 +230,7 @@
             <div class="col-9">
                 <div class="row">
                     <div class="container-fluid border-dark rounded" id="top-bar">
-                        <div class="row">
+                        <dirv class="row">
                             <div class="col-sm rounded-circle border-dark">
                                 <img src="./media/topbar/highbeam-circle.svg" class="imgs" alt="Light Beam">
                             </div>
@@ -487,21 +484,21 @@
                 </p>
             </div>
             <div class="row">
-                <button style=" height: 50px;
+                <button onClick="park()" style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
                     margin-left: 37px;
                     margin-right: 37px;">
                 </button>
-                <button style=" height: 50px;
+                <button onClick="drive()" style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;
                     margin-left: 37px;
                     margin-right: 37px;">
                 </button>
-                <button style=" height: 50px;
+                <button onClick="reverse()" style=" height: 50px;
                     width: 50px;
                     background-color: #555;
                     border-radius: 50%;

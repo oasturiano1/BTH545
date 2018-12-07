@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 432.932 438">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #222324;
+      }
+
+      .cls-2 {
+        fill: #4694ff;
+      }
+
+      .cls-3 {
+        fill: #848483;
+        font-size: 30px;
+        letter-spacing: 0.046em;
+      }
+
+      .cls-10, .cls-11, .cls-3, .cls-8 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-15, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-4, .cls-5 {
+        opacity: 0.102;
+      }
+
+      .cls-12, .cls-13, .cls-5, .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #0d0d0d;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-8 {
+        font-size: 32px;
+        letter-spacing: 0.036em;
+      }
+
+      .cls-10 {
+        fill: #f8f6f6;
+        font-size: 28px;
+      }
+
+      .cls-11 {
+        fill: #78849e;
+        font-size: 16px;
+      }
+
+      .cls-12 {
+        font-size: 80px;
+      }
+
+      .cls-12, .cls-13 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+        letter-spacing: 0.026em;
+      }
+
+      .cls-13 {
+        font-size: 50px;
+      }
+
+      .cls-14 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.062" x2="-0.061" y2="1.072" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8f4a"/>
+      <stop offset="1" stop-color="#ff5353"/>
+    </linearGradient>
+  </defs>
+  <g id="Park-S" transform="translate(-30)">
+    <g id="Group_29" data-name="Group 29">
+      <rect id="Container" class="cls-1" width="269.527" height="70" rx="10" transform="translate(140 368)"/>
+      <path id="Path_776" data-name="Path 776" class="cls-2" d="M12.852,26.652a1.028,1.028,0,0,0,1.03,1.02h17.1V20.334L47.822,32.026l-16.839,11.7V36.339h-17.1A9.744,9.744,0,0,1,4.1,26.652V0h8.752Z" transform="translate(206.211 424.222) rotate(180)"/>
+      <g id="Group_28" data-name="Group 28">
+        <text id="Battery" class="cls-3" transform="translate(140 285) rotate(-90)"><tspan x="91.646" y="32">Battery</tspan></text>
+        <g id="Battery_25_" data-name="Battery 25%" transform="translate(-4074 420) rotate(-90)">
+          <g id="Body" transform="translate(107 3973)">
+            <g id="Rectangle_105" data-name="Rectangle 105" class="cls-4" transform="translate(53 131)">
+              <rect class="cls-14" width="207" height="110" rx="26"/>
+              <rect class="cls-15" x="3" y="3" width="201" height="104" rx="23"/>
+            </g>
+            <path id="Subtraction_19" data-name="Subtraction 19" class="cls-5" d="M-1976-3012h0v-40a19.878,19.878,0,0,1,7.785,1.572,19.938,19.938,0,0,1,6.358,4.286,19.938,19.938,0,0,1,4.286,6.357A19.874,19.874,0,0,1-1956-3032a19.874,19.874,0,0,1-1.572,7.785,19.938,19.938,0,0,1-4.286,6.357,19.938,19.938,0,0,1-6.358,4.286A19.88,19.88,0,0,1-1976-3012Z" transform="translate(2244 3218)"/>
+          </g>
+          <rect id="Juice" class="cls-6" width="187" height="90" rx="17" transform="translate(170 4114)"/>
+          <path id="Juice-2" data-name="Juice" class="cls-7" d="M17,0H57a0,0,0,0,1,0,0V90a0,0,0,0,1,0,0H17A17,17,0,0,1,0,73V17A17,17,0,0,1,17,0Z" transform="translate(170 4114)"/>
+          <text id="_25_" data-name="25%" class="cls-8" transform="translate(227 4120) rotate(90)"><tspan x="10.504" y="35">25%</tspan></text>
+        </g>
+        <path id="play_icon" class="cls-9" d="M988.584,2000.262v35.494l26.348-17.984Z" transform="translate(-552 -1615.278)"/>
+        <path id="play_icon-2" data-name="play_icon" class="cls-9" d="M988.584,2000.262v35.494l26.348-17.984Z" transform="translate(1099.516 2420.739) rotate(-180)"/>
+        <text id="Broadway_Rd" data-name="Broadway Rd" class="cls-10" transform="translate(228 398)"><tspan x="0" y="0">Broadway Rd</tspan></text>
+        <text id="_0.2_mi" data-name="0.2 mi" class="cls-11" transform="translate(228 421)"><tspan x="0" y="0">0.2 mi</tspan></text>
+        <text id="Time" class="cls-12" transform="translate(352 131)"><tspan x="-24.57" y="0">P</tspan></text>
+        <text id="Time-2" data-name="Time" class="cls-13" transform="translate(339 233)"><tspan x="-37.787" y="0">-6c</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

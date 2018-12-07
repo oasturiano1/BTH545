@@ -2,6 +2,18 @@ var radioSwitch = true;
 var isNavOpen = false;
 var song = 0;
 
+function park() {
+	$('#topleft').attr('src','./media/Park-S.svg');
+}
+
+function drive() {
+	$('#topleft').attr('src','./media/Drive-S.svg');
+}
+
+function reverse() {
+	$('#topleft').attr('src','./media/Reverse-S.svg');
+}
+
 function openNav() {
 if (document.getElementById("mySidenav").style.width == "0px") {
   document.getElementById("mySidenav").style.width = "355px";

@@ -6,6 +6,7 @@ body {
     color: white;
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: right;
     background-image: url("../../gpsmap.jpg");
 }
 .sidenav {
@@ -13,7 +14,7 @@ body {
     width: 0;
     position: absolute;
     z-index: 1;
-    top: 271px;
+    top: 343px;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -93,7 +94,6 @@ body {
 	
 }
 	
-}
 .core_button{
 	margin: 4px;
 	
@@ -120,8 +120,8 @@ body {
     margin-left: 50px;
 }
 #top-bar{
-	border: 4px solid;
-	padding: 55px;
+	border: 2px solid;
+	padding: 25px;
 	
 }
 .img_gps{
