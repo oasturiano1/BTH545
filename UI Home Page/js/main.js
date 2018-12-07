@@ -35,7 +35,13 @@ function switchSong(){
 	
     var audio = document.getElementById("audio");
 	var source = document.getElementById("source");
-	
+	if(isNavOpen == false) {
+		openNav();
+	}else{
+		setTimeout(function(){
+		openNav();
+		}, 2000);
+	}
 	if(song == 1) {
 		source.src = './media/musicmedia/Bacca.mp3';
 		//song = 0;
