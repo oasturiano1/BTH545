@@ -91,6 +91,7 @@ function toggleVol_(val){
 	ls.click();
 	//Update the slider value
 	lse.value = lse2.value;
+	
 
 	if (val == 999) {
 		lse.value = 0;
