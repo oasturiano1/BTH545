@@ -115,6 +115,8 @@ body {
 .side_menu_button{
     width: 60px;
     height: 60px;
+    z-index: 1 !important;
+    position: relative;
 }
 
 .iframe_size{
