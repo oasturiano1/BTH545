@@ -69,6 +69,42 @@ function toggleVol_(){
 	
 	
 }
+function goSetting(){
+	
+	let ls = document.getElementById("settings");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
+	
+}
+function goSpotify(){
+	
+	let ls = document.getElementById("spotify");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
+	
+}
+function goRadio(){
+	
+	let ls = document.getElementById("radio");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
+	
+}
+function goAux(){
+	
+	let ls = document.getElementById("aux");
+	if(isNavOpen == false) {
+		openNav();
+	}
+	ls.click();
+	
+}
 //Toggles the menu for volume
 function toggleVol(){
 	
