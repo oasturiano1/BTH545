@@ -9,9 +9,9 @@ body {
     background-image: url("../../gpsmap.jpg");
 }
 .sidenav {
-    height: 60%;
+    min-height: 60%;
     width: 0;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 271px;
     left: 0;
