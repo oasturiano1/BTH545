@@ -65,7 +65,7 @@ function switchSong(){
 	audio.play();
 }
 //Updates the slider value based on steering input
-function toggleVol_(){
+function toggleVol_(val){
 	let btn = document.getElementById("volume");
 	let ls = document.getElementById("volume_ls");
 	
@@ -91,6 +91,11 @@ function toggleVol_(){
 	ls.click();
 	//Update the slider value
 	lse.value = lse2.value;
+
+	if (val == 999) {
+		lse.value = 0;
+		lse2.value = 0;
+	}
 	
 }
 function goSetting(){
