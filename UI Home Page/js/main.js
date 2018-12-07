@@ -1,5 +1,6 @@
 var radioSwitch = true;
 var isNavOpen = false;
+var song = 0;
 
 function openNav() {
 if (document.getElementById("mySidenav").style.width == "0px") {
@@ -25,6 +26,25 @@ function toggleRadio() {
 
 function upArrow() {
   alert("wow")
+}
+//Change the song
+function switchSong(){
+	
+	song = (song == 0) ? 1 : 0;
+	
+	
+    var audio = document.getElementById("audio");
+	var source = document.getElementById("source");
+	
+	if(song == 1) {
+		source.src = './media/musicmedia/Bacca.mp3';
+		//song = 0;
+	}else{
+		source.src = './media/musicmedia/Kappa.mp3';
+		//song = 1;
+	}
+	audio.load();
+	audio.play();
 }
 //Updates the slider value based on steering input
 function toggleVol_(){
