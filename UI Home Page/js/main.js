@@ -1,9 +1,13 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "25%";
+if (document.getElementById("mySidenav").style.width == "0px") {
+  document.getElementById("mySidenav").style.width = "355px";
+  document.getElementById("menu-button").style.marginLeft = "355px";
+  $('#menu-button').attr('src','./media/menu/close-menu.svg');
+} else {
+	document.getElementById("mySidenav").style.width = "0px";
+	document.getElementById("menu-button").style.marginLeft = "0px";
+	$('#menu-button').attr('src','./media/menu/menu.svg');
 }
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
 }
 
 function upArrow() {
@@ -21,7 +25,7 @@ function toggleVol(){
 		
 		  
 	  }else{
-		  closeNav();
+		  openNav();
 		  btn.style.border = '';
 		  btn.style.backgroundColor = '';
 	
@@ -38,7 +42,7 @@ function toggleBlueTooth(){
 		
 		  
 	  }else{
-		  closeNav();
+		  openNav();
 		  btn.style.border = '';
 		  btn.style.backgroundColor = '';
 	
@@ -55,7 +59,7 @@ function toggleWifi(){
 		
 		  
 	  }else{
-		  closeNav();
+		  openNav();
 		  btn.style.border = '';
 		  btn.style.backgroundColor = '';
 	
